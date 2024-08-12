@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DataAccess.Migrations
 {
-    public partial class data : Migration
+    public partial class firstMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -118,7 +118,8 @@ namespace DataAccess.Migrations
                     UserEmail = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     UserPassword = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     UserPoint = table.Column<int>(type: "int", nullable: false),
-                    UserRole = table.Column<int>(type: "int", nullable: false)
+                    UserRole = table.Column<int>(type: "int", nullable: false),
+                    Token = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -201,6 +202,8 @@ namespace DataAccess.Migrations
                     Img4 = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Img5 = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Status = table.Column<int>(type: "int", nullable: false),
+                    Sale = table.Column<int>(type: "int", nullable: false),
+                    SalePercent = table.Column<int>(type: "int", nullable: false),
                     UserId = table.Column<int>(type: "int", nullable: false),
                     CategoryId = table.Column<int>(type: "int", nullable: false)
                 },
@@ -254,8 +257,6 @@ namespace DataAccess.Migrations
                     ProductDetailPrice = table.Column<double>(type: "float", nullable: false),
                     DetailPriceDiscount = table.Column<int>(type: "int", nullable: false),
                     DetailStock = table.Column<int>(type: "int", nullable: false),
-                    StartDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    EndDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     ProductId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>

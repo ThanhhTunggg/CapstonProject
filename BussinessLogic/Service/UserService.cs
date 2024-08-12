@@ -4,7 +4,6 @@ using BussinessLogic.IService;
 using BussinessLogic.MailService;
 using BussinessLogic.Models;
 using DataAccess.DAO;
-using DataAccess.Migrations;
 using DataAccess.Model;
 using System;
 using System.Collections.Generic;
