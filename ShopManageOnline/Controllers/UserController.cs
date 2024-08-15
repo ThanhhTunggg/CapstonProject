@@ -74,6 +74,23 @@ namespace ShopManageOnline.Controllers
             }
         }
 
+        [HttpGet("GetAllCard/{UserId}")]
+        public ActionResult GetAllCardd(int UserId)
+        {
+            try
+            {
+                using(DataAccessContext context = new DataAccessContext())
+                {
+                    int a = context.Carts.Where(x => x.UserId == UserId).ToList().Count();
+                    return Ok(a);
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
         [HttpPost(Name = "Authentication")]
         public ActionResult<UserDTO> Authentication(string userEmail, string password)
         {

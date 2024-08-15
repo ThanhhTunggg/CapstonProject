@@ -7,7 +7,7 @@ namespace DataAccess.Model
     public class DataAccessContext : DbContext
     {
 
-        public const string ConnectStrring = @"Server=KIKO\SQLEXPRESS;Database=ShopManageOnline;User Id=sa;Password=koios;TrustServerCertificate=True;";
+        public const string ConnectStrring = @"Server=DESKTOP-6HN0NTV\SQLEXPRESS;Database=ShopManageOnline;User Id=sa;Password=123;TrustServerCertificate=True;";
 
 
         public DataAccessContext()

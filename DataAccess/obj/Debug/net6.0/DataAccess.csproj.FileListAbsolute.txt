@@ -27,3 +27,17 @@ C:\Users\ducda\OneDrive\Documents\CSharp\ShopManageOnline\CapstonProject\DataAcc
 C:\Users\ducda\OneDrive\Documents\CSharp\ShopManageOnline\CapstonProject\DataAccess\obj\Debug\net6.0\DataAccess.pdb
 C:\Users\ducda\OneDrive\Documents\CSharp\ShopManageOnline\CapstonProject\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
 C:\Users\ducda\OneDrive\Documents\CSharp\ShopManageOnline\CapstonProject\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll

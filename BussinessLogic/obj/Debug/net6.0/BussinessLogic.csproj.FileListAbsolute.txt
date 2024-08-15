@@ -33,3 +33,20 @@ C:\Users\ducda\OneDrive\Documents\CSharp\ShopManageOnline\CapstonProject\Bussine
 C:\Users\ducda\OneDrive\Documents\CSharp\ShopManageOnline\CapstonProject\BussinessLogic\obj\Debug\net6.0\BussinessLogic.pdb
 C:\Users\ducda\OneDrive\Documents\CSharp\ShopManageOnline\CapstonProject\BussinessLogic\obj\Debug\net6.0\BussinessLogic.genruntimeconfig.cache
 C:\Users\ducda\OneDrive\Documents\CSharp\ShopManageOnline\CapstonProject\BussinessLogic\obj\Debug\net6.0\ref\BussinessLogic.dll
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\BussinessLogic\bin\Debug\net6.0\BussinessLogic.deps.json
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\BussinessLogic\bin\Debug\net6.0\BussinessLogic.runtimeconfig.json
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\BussinessLogic\bin\Debug\net6.0\BussinessLogic.dll
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\BussinessLogic\bin\Debug\net6.0\BussinessLogic.pdb
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\BussinessLogic\bin\Debug\net6.0\DataAccess.dll
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\BussinessLogic\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\BussinessLogic\obj\Debug\net6.0\BussinessLogic.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\BussinessLogic\obj\Debug\net6.0\BussinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\BussinessLogic\obj\Debug\net6.0\BussinessLogic.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\BussinessLogic\obj\Debug\net6.0\BussinessLogic.AssemblyInfo.cs
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\BussinessLogic\obj\Debug\net6.0\BussinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\BussinessLogic\obj\Debug\net6.0\BussinessLogic.csproj.CopyComplete
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\BussinessLogic\obj\Debug\net6.0\BussinessLogic.dll
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\BussinessLogic\obj\Debug\net6.0\refint\BussinessLogic.dll
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\BussinessLogic\obj\Debug\net6.0\BussinessLogic.pdb
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\BussinessLogic\obj\Debug\net6.0\BussinessLogic.genruntimeconfig.cache
+C:\Users\Admin\Desktop\do an tot nghiep\WEB\CapstonProject\BussinessLogic\obj\Debug\net6.0\ref\BussinessLogic.dll
