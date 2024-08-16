@@ -21,7 +21,7 @@ namespace DataAccess.DAO
         {
             using (DataAccessContext context = new DataAccessContext())
             {
-                return context.Users.FirstOrDefault(x => x.UserEmail.Equals(username) && x.UserPassword.Equals(password) && x.UserRole <= 2);
+                return context.Users.FirstOrDefault(x => x.UserEmail.Equals(username) && x.UserPassword.Equals(password) && (x.UserRole <= 2 || x.UserRole == 4));
             }
 
         }

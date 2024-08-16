@@ -101,7 +101,25 @@ namespace BussinessLogic.Service
 
         public List<ProductDTO> SearchProducts(string key)
         {
-            return _mapper.Map<List<ProductDTO>>(_productDAO.SearchProduct(key));
+            using (DataAccessContext context = new DataAccessContext())
+            {
+                var lstPr = _mapper.Map<List<ProductDTO>>(_productDAO.SearchProduct(key));
+                foreach (var pr in lstPr)
+                {
+                    try
+                    {
+                        var price = context.ProductDetails.FirstOrDefault(x => x.ProductId == pr.ProductId).ProductDetailPrice;
+                        pr.ProductPrice = price;
+                        pr.ProductSalePrice = price - (price / 100 * pr.SalePercent);
+                    }
+                    catch (Exception)
+                    {
+                        pr.ProductPrice = 0;
+                    }
+                }
+
+                return lstPr;
+            }
         }
 
         public void UpdateProduct(ProductDTO productDto)
@@ -152,7 +170,25 @@ namespace BussinessLogic.Service
 
         public List<ProductDTO> GetProductsById(int id)
         {
-            return _mapper.Map<List<ProductDTO>>(_productDAO.GetProductByCateId(id));
+            using (DataAccessContext context = new DataAccessContext())
+            {
+                var lstPr = _mapper.Map<List<ProductDTO>>(_productDAO.GetProductByCateId(id));
+                foreach (var pr in lstPr)
+                {
+                    try
+                    {
+                        var price = context.ProductDetails.FirstOrDefault(x => x.ProductId == pr.ProductId).ProductDetailPrice;
+                        pr.ProductPrice = price;
+                        pr.ProductSalePrice = price - (price / 100 * pr.SalePercent);
+                    }
+                    catch (Exception)
+                    {
+                        pr.ProductPrice = 0;
+                    }
+                }
+
+                return lstPr;
+            }
         }
 
         public List<ProductDTO> GetProductsAll()
